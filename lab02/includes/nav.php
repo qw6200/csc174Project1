@@ -1,9 +1,5 @@
 <nav>
      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="giovanni.php">Giovanni Ilacqua</a></li>
-
-        <li><a href="genessis.php">Genessis Galindo</a></li>
-        <li><a href="jack.php">Jack Dalton</a></li>
+        <li><a href="http://csc174.org/assignment02/atlantis/giovanni.php"><strong>Previous Assignment</strong></a></li>
     </ul>
 </nav>

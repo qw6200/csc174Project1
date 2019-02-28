@@ -1,7 +1,7 @@
 body{
 	background-color: white;
 	color: black;
-    font-family: 'Open Sans Condensed',  Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
 }
 
@@ -11,9 +11,9 @@ body{
     margin-top: 20px;
 	width: 85%;
     max-width: 960px;
-    
+    background-color: #e0f0f9;
     display: grid;
-    grid-template-columns: 270px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .is-current{
@@ -36,35 +36,31 @@ header a{
 }
 
 header h1 {
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 100;
-    top: 100px;
-    left: -132px;
-    letter-spacing: 4.6px;
+
 }
 
 .profile-picture{
     margin-left: 40px;
 }
 
-.gene
+p {
+    color: #35383a;
+}
 
 h1{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 38px;
 }
 
 h2{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Merriweather', serif;
 }
 
 aside{
-    font-style: italic;
     grid-column: 2/4;
     font-size: 24px;
-    margin-left: 30px;
-    padding-top: 205px;
+    margin-left: -200px;
+    padding-top: 312px;
 }
 
 aside ul{
@@ -78,11 +74,19 @@ aside li{
 }
 
 article {
+    margin-top: 15px;
+    padding: 15px;
+    border-style: groove;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: #96c5e0;
+    padding-top: 6px;
     grid-column: 1/4;
-    margin: 0px 0px;
 }
 
 footer{
+    margin-top: 20px;
+    padding-bottom: 40px;
     font-family: 'Open Sans Condensed',  Arial, sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -90,7 +94,9 @@ footer{
 }
 
 nav{
+    margin-top: 20px;
     grid-column: 2/4;
+    grid-row: 6;
 }
 
 nav ul{
